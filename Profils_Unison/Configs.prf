@@ -1,0 +1,46 @@
+# Emplacements à synchroniser
+root = /home/gaetan
+root = ssh://root@10.42.0.1:22//home/DISQUE/PARTAGE/DONNEES/Configurations
+
+# Dossiers de config générale
+path = .config
+ignore = Path .config/vivaldi
+ignore = Path .config/dconf
+
+path = .local/cinnamon
+path = .local/fonts
+path = .local/gpaste
+
+# Vivaldi (Sessions + Favoris + Etat actuel)
+path = .config/vivaldi/Default/Sessions
+path = .config/vivaldi/Default/Bookmarks
+path = .config/vivaldi/Default/Preferences
+path = .config/vivaldi/Default/Top Sites
+path = .config/vivaldi/Default/Notes
+# Personnalisation
+path = .themes
+path = .icons
+# Applications
+path = .atom
+path = .files
+# Bureau
+path = Bureau
+
+# Exclusions du bureau
+ignore = Path Bureau/CRYPTOS
+ignore = Path Bureau/DEV
+ignore = Path Bureau/GRAPHISME
+ignore = Path Bureau/Sauvegardes
+
+ignore = Path .unison
+
+# Options
+batch=true
+silent=true
+auto=true
+
+owner=true
+times=true
+force=newer
+
+rsync=true

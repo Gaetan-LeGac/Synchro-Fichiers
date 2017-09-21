@@ -1,0 +1,20 @@
+# Emplacements à synchroniser
+root = /home/gaetan/Bureau/DEV
+root = ssh://root@10.42.0.1:22//home/DISQUE/PARTAGE/PROJETS
+
+# Options
+batch=true
+silent=true
+auto=true
+
+#owner=true
+times=true
+force=newer
+
+rsync=true
+
+# Ignore le lien symbolique Web vers www
+ignore = Path Web
+
+# Ne touche pas au dossier Web
+immutable = Path Web

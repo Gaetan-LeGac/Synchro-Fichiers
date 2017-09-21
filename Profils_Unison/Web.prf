@@ -1,0 +1,14 @@
+# Emplacements à synchroniser
+root = /var/www
+root = ssh://root@10.42.0.1:22//home/DISQUE/PARTAGE/PROJETS/Web
+
+# Options
+batch=true
+silent=true
+auto=true
+
+#owner=true
+times=true
+force=newer
+
+rsync=true

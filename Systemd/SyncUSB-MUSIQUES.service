@@ -1,0 +1,10 @@
+[Unit]
+Description=Synchronisation USB automatique
+Requires=media-gaetan-MUSIQUES.mount
+After=media-gaetan-MUSIQUES.mount
+
+[Service]
+ExecStart=/home/gaetan/Scripts/Synchro/Sync-USB.sh MUSIQUES
+
+[Install]
+WantedBy=media-gaetan-MUSIQUES.mount

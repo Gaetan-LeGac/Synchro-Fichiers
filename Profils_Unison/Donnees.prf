@@ -1,0 +1,22 @@
+# Emplacements à synchroniser
+root = /home/gaetan
+root = ssh://root@10.42.0.1:22//home/DISQUE/PARTAGE/DONNEES
+
+# Dossiers à synchroniser
+path = Documents
+path = Images
+path = Vidéos
+path = Scripts
+path = Musique
+path = Téléchargements
+
+# Options
+batch=true
+silent=true
+auto=true
+
+#owner=true
+times=true
+force=newer
+
+rsync=true
